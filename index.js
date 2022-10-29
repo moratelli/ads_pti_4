@@ -9,7 +9,7 @@ const handleSubmit = (event) => {
   }
 
   setItemsInStorage(value.user, value.password);
-  window.location.href = "home.html";
+  window.location.href = "./home.html";
 };
 
 const setItemsInStorage = (user, password) => {
